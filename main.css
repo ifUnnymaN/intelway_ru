@@ -9,62 +9,62 @@ a {
 }
 
 img {
-	display: inline-block;
+  display: inline-block;
 }
 
 body {
   max-width: 1920px;
   /*width: 100%;*/
   width: 100%;
-  color: #fff;
+  color: #242424;
   font-family: "Ubuntu", sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 13px;
 }
 
 .page {
-	min-height: 100%;
-	height: auto !important;
+  min-height: 100%;
+  height: auto !important;
 }
 
 header {
-	width: 998px;
-	height: 114px;
-	margin: 0 auto;
-	overflow: hidden;
+  width: 998px;
+  height: 114px;
+  margin: 0 auto;
+  overflow: hidden;
 }
 
 header .navbar__logo {
-	display: -webkit-flex;
-	display: -moz-flex;
-	display: -ms-flex;
-	display: -o-flex;
-	display: flex;
-	margin: 0 auto;
-	width: 100%;
-	-ms-align-items: center;
-	align-items: center;
-	position: absolute;
-	margin: 30px 0 0 15px;
-	width: 180px;
-	height: 73px;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+  -ms-align-items: center;
+  align-items: center;
+  position: absolute;
+  margin: 30px 0 0 15px;
+  width: 180px;
+  height: 73px;
 }
 
 header .navbar__logo img {
-	width: 180px;
-	height: 73px;
+  width: 180px;
+  height: 73px;
 }
 
 header .navbar__slogan span {
-	padding: 0;
-	margin: 0;
-	color: #ef7937;
+  padding: 0;
+  margin: 0;
+  color: #ef7937;
 }
 
 header .navbar__slogan {
-	width: 100%;
-	max-width: 320px;
-	position: absolute;
+  width: 100%;
+  max-width: 320px;
+  position: absolute;
     margin: 31px 0 0 302px;
     font-size: 19px;
     font-family: "Ubuntu", sans-serif;
@@ -73,7 +73,7 @@ header .navbar__slogan {
 }
 
 header .navbar__phone {
-	position: absolute;
+  position: absolute;
     margin: 27px 0 0 780px;
     font-size: 20px;
     font-weight: 300;
@@ -85,15 +85,15 @@ header .navbar__phone {
 }
 
 header .navbar__phone img {
-	width: 35px;
-	height: 35px;
-	position: absolute;
+  width: 35px;
+  height: 35px;
+  position: absolute;
     margin: -3px 0 0 -47px;
 }
 
 
 .navbar__phone-main {
-	border: 1px solid #ffffff;
+  border: 1px solid #ffffff;
     border-radius: 4px;
     text-align: center;
     padding: 4px 6px 4px 6px;
@@ -109,7 +109,7 @@ header .navbar__phone img {
 
 
 .navbar__phone-item {
-	font-weight: 300;
+  font-weight: 300;
     font-style: normal;
     letter-spacing: 1px;
     margin: 4px 0 0 10px;
@@ -118,11 +118,11 @@ header .navbar__phone img {
 }
 
 .navbar__phone-item:hover {
-	color: #1596d6;
+  color: #1596d6;
 }
 
 .navbar__phone-main_addition {
-	display: none;
+  display: none;
     position: absolute;
     text-align: center;
     text-transform: uppercase;
@@ -141,5 +141,40 @@ header .navbar__phone img {
 }
 
 .navbar__phone-main:hover .navbar__phone-main_addition {
-	display: block;
+  display: block;
+}
+
+.navbar__menu {
+    background-color: orangered;
+    position: absolute;
+    margin: 87px 1 0 245px;
+    width: 740px;
+}
+
+.navbar__menu a {
+    display: inline-block;
+    width: 181px;
+    margin: 0 -1px 0 0;
+    padding: 5px 0 5px 0;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    /*font-weight: 400;*/
+    letter-spacing: 1px;
+    border-radius: 4px;
+}
+
+.btn__style-default {
+    border: 1px solid #0b84ed;
+    border-color: #1596d6;
+    background-color: #1596d6;
+    color: #ffffff;
+}
+
+.btn__orange {
+    border: 1px solid;
+    border-color: #ef7937;
+    background-color: #ef7937;
+    color: #ffffff;
 }
